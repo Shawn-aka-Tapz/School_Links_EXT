@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "School Sources",
+    "description": "A portal where all major school utilities are stored",
+    "version": "1.0.0",
+    "icons": {"128": "logo.png"},
+    "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+  }
